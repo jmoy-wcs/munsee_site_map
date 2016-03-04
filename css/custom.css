@@ -1,0 +1,15 @@
+/*custom css*/
+
+.header {
+    text-align: center;
+}
+
+.leaflet-container {
+	background-color: white;
+}
+
+#map {
+	width: 100%;
+/*	margin-left: 20%;
+	margin-right: 20%;*/
+}
