@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Munsee Site and Trail Map</title>
+    <meta charset="utf-8" />
+    <!-- For full screen Leaflet maps, add the following meta tag to set parameters in the viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- Including Leaflet CSS -->
+    <link type="text/css" rel="stylesheet" href="libraries/leaflet/leaflet.css"/>
+    <!-- Including our custom CSS -->
+    <link type="text/css" rel="stylesheet" href="css/SimpleFullscreenMap.css"/>
+      
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="libraries/leaflet/leaflet.css"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+  </head>
+
+  <body>
+  <div class="container">
+    <section class="header" style="margin-top: 100px">
+      <h1 class="title"> The Munsee of New York City </h1>
+      <h3 class="title"> Archaeological Sites and Trails </h3>
+    </section>
+
+    <nav class="navbar" style="margin-top: 10px">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="index.html#map">Map</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="references.html">References</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row" style="margin-top: 10%">
+      <div class="six columns">
+      <p>the Munsee are a cultural/linguistic subgroup of the larger Delaware North American Indian group. They formerly inhabited the area around New York City Bay, along with the lower Hudson Valley and Northern Delaware River valleys. </p>
+
+      <p>
+      "...The region in which [the Munsee] lived, which has now become the area of the Greater City, was a paradise of nature, teeming with its products, and rich in natural beauty of woods and waters. Its varied climate, as one old time writer described it was <em>of a sweet and wholesome breath</em>, its <em>uplands covered with berries roots, chestnuts and walnuts, beach and oak masts</em>. Birds sang in the branches, the deer and elk roamed the grassy meadows, the waters swarmed with fish, and the woods were redolent with the sent of the wild grape and many flowers" <a href="https://www.zotero.org/groups/welikia/items/itemKey/EQBI36IS" target="_blank"> (Bolton 1934) </a> 
+      </p>
+      </div>
+        
+      <div class="six columns">
+      The map below is a synthesis of textual and cartographic records and represents our best understanding of the locations of Munsee sites and trails in New York City. These features are overlaid atop a reconstruction of the city's historical topography, which was created for the <a href="http://welikia.org"> Welikia Project </a>. The sites are grouped into two classes, marker size indicates greater and lesser evidence of long term occupation, support for these designations comes from ehtnohistorical accounts and the archaeological record. The impermanence of trails makes mapping their configuration a challenge and, to some extent an act of guess work; what you see here is largely based on the early 20th century efforts of R. P. Bolton and has been adjusted based on what we know of the historical elevation and shoreline.
+      </div>
+      
+    </div>
+  </div>
+<!--       <div class="u-full-width" id="map"></div> -->
+    
+
+  <div class="leaflet-container" id="map" style="margin-top: 5%"></div>
+  
+  </body>
+    
+  <!-- Including Leaflet Javascript Library -->
+  <script type="text/javascript" src="libraries/leaflet/leaflet.js"></script>
+  
+  <!-- Including jQuery Javascript Library -->
+  <script type="text/javascript" src="libraries/jQuery/jquery-1.11.2.min.js"></script>
+
+  <!-- Including our custom Javascript -->  
+  <script type="text/javascript" src="js/script.js"></script>
+</html>
