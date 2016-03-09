@@ -14,7 +14,7 @@ var map = L.map('map', {
 
 map.fitBounds(bounds);
 
-var hillshade = "raster/hillshade_02.jpg";
+var hillshade = "raster/hillshade_03.jpg";
 
 L.imageOverlay(hillshade, bounds).addTo(map);
 
